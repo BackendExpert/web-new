@@ -8,14 +8,14 @@ const researchSub = () => {
             <p className="text-xl pb-8">Advancing the frontiers of fundamental research</p>
         </div>
         <div className="md:grid grid-cols-3 gap-12 ">
-            <div className="bg-gradient-to-tr from-[#000000] to--700">
-                <div className="bg-[url(https://wallpapercave.com/wp/wp2237890.jpg)] bg-no-repeat bg-cover h-72 rounded mix-blend-overlay">
-                    Biological Science
-                    <div className="flex">
+            <div className="">
+                <div className="bg-[url(https://wallpapercave.com/wp/wp2237889.jpg) bg-gradient-to-tr from-[#000000] to-[#808080]] bg-no-repeat bg-cover rounded mix-blend-overlay">
+                    <span className="font-bold text-2xl text-white">Biological Science</span>
+                </div>    
+                <div className="flex">
                         <span className="">Explore More</span>
                         <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
-                    </div>
-                </div>
+                </div>                
             </div>
             <div className="">
                 Earth and Space Science

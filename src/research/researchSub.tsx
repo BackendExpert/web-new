@@ -20,7 +20,7 @@ const researchSub = () => {
                 </div>              
             </div>
             <div className="">
-                <div className="rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://c4.wallpaperflare.com/wallpaper/825/184/17/car-vehicle-super-car-supercars-wallpaper-preview.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
+                <div className="rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp10346292.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
                     <div className="px-8 py-28">
                         <span className="font-bold text-2xl text-white">Earth and Space Science</span>  
                         <div className="flex text-white duration-500 hover:pl-8">
@@ -42,7 +42,7 @@ const researchSub = () => {
                 </div>              
             </div>
             <div className="">
-                <div className="rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://c4.wallpaperflare.com/wallpaper/825/184/17/car-vehicle-super-car-supercars-wallpaper-preview.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
+                <div className="rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp10346292.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
                     <div className="px-8 py-28">
                         <span className="font-bold text-2xl text-white">Earth and Space Science</span>  
                         <div className="flex text-white duration-500 hover:pl-8">

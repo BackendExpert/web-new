@@ -9,13 +9,14 @@ const researchSub = () => {
         </div>
         <div className="md:grid grid-cols-3 gap-12 ">
             <div className="">
-                <div className="bg-[url(https://wallpapercave.com/wp/wp2237889.jpg) bg-gradient-to-tr from-[#000000] to-[#808080]] bg-no-repeat bg-cover rounded mix-blend-overlay">
+                <div className="bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://c4.wallpaperflare.com/wallpaper/825/184/17/car-vehicle-super-car-supercars-wallpaper-preview.jpg')] w-full h-[250px] bg-cover bg-center bg-no-repeat mb-8 md:h-[550px] bg-opacity-75" >
                     <span className="font-bold text-2xl text-white">Biological Science</span>
-                </div>    
-                <div className="flex">
+  
+                    <div className="flex">
                         <span className="">Explore More</span>
                         <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
-                </div>                
+                    </div>    
+                </div>              
             </div>
             <div className="">
                 Earth and Space Science

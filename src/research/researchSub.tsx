@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons"
 
 const researchSub = () => {
   return (
@@ -8,9 +9,9 @@ const researchSub = () => {
         <div className="md:grid grid-cols-3 gap-4">
             <div className="">
                 Biological Science
-                <div className="">
+                <div className="flex">
                     <span className="">Explore More</span>
-                    <span className=""></span>
+                    <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
                 </div>
             </div>
         </div>

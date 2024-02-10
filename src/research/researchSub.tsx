@@ -1,7 +1,9 @@
 
 const researchSub = () => {
   return (
-    <div>researchSub</div>
+    <div className="container mx-auto px-12">
+        
+    </div>
   )
 }
 

@@ -6,7 +6,13 @@ const researchSub = () => {
         <p className="">Advancing the frontiers of fundamental research</p>
 
         <div className="md:grid grid-cols-3 gap-4">
-    
+            <div className="">
+                Biological Science
+                <div className="">
+                    <span className="">Explore More</span>
+                    <span className=""></span>
+                </div>
+            </div>
         </div>
     </div>
   )

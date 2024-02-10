@@ -7,12 +7,14 @@ const researchSub = () => {
             <h1 className="text-4xl font-semibold pb-2">Research Division at NIFS</h1>
             <p className="text-xl pb-8">Advancing the frontiers of fundamental research</p>
         </div>
-        <div className="md:grid grid-cols-3 gap-12">
-            <div className="bg-[url(https://wallpapercave.com/wp/wp2237890.jpg)] bg-no-repeat bg-cover h-72 rounded">
-                Biological Science
-                <div className="flex">
-                    <span className="">Explore More</span>
-                    <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
+        <div className="md:grid grid-cols-3 gap-12 ">
+            <div className="bg-gradient-to-tr from-[#000000] to--700">
+                <div className="bg-[url(https://wallpapercave.com/wp/wp2237890.jpg)] bg-no-repeat bg-cover h-72 rounded mix-blend-overlay">
+                    Biological Science
+                    <div className="flex">
+                        <span className="">Explore More</span>
+                        <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
+                    </div>
                 </div>
             </div>
             <div className="">

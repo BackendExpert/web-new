@@ -8,7 +8,7 @@ const researchSub = () => {
             <p className="text-xl pb-8">Advancing the frontiers of fundamental research</p>
         </div>
         <div className="md:grid grid-cols-3 gap-4">
-            <div className="">
+            <div className="bg-[url(https://wallpapercave.com/wp/wp2237976.jpg)] bg-no-repeat py-screen">
                 Biological Science
                 <div className="flex">
                     <span className="">Explore More</span>

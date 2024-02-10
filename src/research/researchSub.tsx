@@ -15,35 +15,35 @@ const researchSub = () => {
                 </div>
             </div>
             <div className="">
-                Biological Science
+                Earth and Space Science
                 <div className="flex">
                     <span className="">Explore More</span>
                     <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
                 </div>
             </div>
             <div className="">
-                Biological Science
+                Computer Science, Mathematics and Statistics
                 <div className="flex">
                     <span className="">Explore More</span>
                     <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
                 </div>
             </div>
             <div className="">
-                Biological Science
+                Earth and Space Science
                 <div className="flex">
                     <span className="">Explore More</span>
                     <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
                 </div>
             </div>
             <div className="">
-                Biological Science
+                Environment Science
                 <div className="flex">
                     <span className="">Explore More</span>
                     <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
                 </div>
             </div>
             <div className="">
-                Biological Science
+                Philosophy and Social Science
                 <div className="flex">
                     <span className="">Explore More</span>
                     <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>

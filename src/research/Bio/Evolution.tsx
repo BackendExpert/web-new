@@ -24,7 +24,15 @@ const Evolution = () => {
           Obcaecati, eligendi adipisci omnis, nemo corporis quod quasi doloribus animi aut iure doloremque nulla sit totam incidunt modi. Maiores numquam, id pariatur minima placeat quidem natus optio laborum voluptatem et.
         </p>
 
-        <div className="">What does this matter ?</div>
+        <div className="text-3xl font-semibold mt-8">What does this matter ?</div>
+        <hr className="pb-4"/>
+
+        <p className="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti laborum obcaecati, amet ipsa velit repudiandae. Asperiores dolorem officiis accusantium ullam nemo cum inventore ut, eveniet sed? Expedita, voluptatem molestiae.
+          Pariatur laborum omnis perferendis tenetur totam numquam consequuntur sint minima esse inventore. Ipsam itaque illo facere dicta distinctio, ullam ut maxime nostrum cum sequi accusamus rem debitis mollitia corporis! Architecto!
+          Adipisci consequatur possimus iste sapiente! Voluptas odit molestias reiciendis, qui sunt maiores in cupiditate tenetur est consectetur! Officia cum necessitatibus eaque nesciunt, possimus veniam sunt quae neque, suscipit voluptatum saepe.
+          Eos ut necessitatibus quaerat iste laboriosam sunt? Temporibus excepturi labore, numquam minima eligendi ex repellendus aperiam laboriosam natus quod ullam maiores totam doloremque nostrum voluptatum in ad optio. Velit, temporibus.
+        </p>
       </div>
 
       <Footer />

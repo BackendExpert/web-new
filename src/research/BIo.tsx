@@ -123,7 +123,7 @@ const BIo = () => {
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">
                         <div className="md:grid grid-cols-2 gap-2 justify-between">
-                          <div>Protect the public from heatlth risk brought upon by food</div>  
+                          <div>Nature-friendly approach to ameliorate Agriculture, Ecosystems, Environment and Medicine</div>  
                           <div className="md:w-[35%] md:ml-[55%]">
                             <Link to={'/Research/Bio/Evolution'}>
                               <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">

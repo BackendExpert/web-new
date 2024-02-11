@@ -41,19 +41,19 @@ const Evolution = () => {
         <hr className="pb-4"/>
 
         <div className="">
-          <div className="flex mx-24 justify-between my-2 text-xl">
+          <div className="flex md:mx-24 justify-between my-2 text-xl">
             <p className="">Biodiversity Patterns of herbivore scrab chafers of Sri Lanka <br /> (Sericini: Coleoptera: Scarabaeidae).</p>
             <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
           </div>
           <hr />
 
-          <div className="flex mx-24 justify-between my-2 text-xl">
+          <div className="flex md:mx-24 justify-between my-2 text-xl">
             <p className="">Evolution of the jumping spiders (Salticidae) intro to Project </p>
             <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
           </div>
           <hr />
 
-          <div className="flex mx-24 justify-between my-2 text-xl">
+          <div className="flex md:mx-24 justify-between my-2 text-xl">
             <p className="">The phylogenetics of the hybirds between the Sri Lanka primate species of langur <br /> (Semnopithecus priam thersites and S. Vetulus) </p>
             <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
           </div>

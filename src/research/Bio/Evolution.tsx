@@ -8,7 +8,7 @@ const Evolution = () => {
       <NavBar />
       <div className="container mx-auto px-10 my-16">
         <p className="text-3xl font-semibold">Evolution, Ecology and Biodiversity Research Program</p>  
-        <div className="">
+        <div className="text-2xl mt-10 flex">
           <p className="">Background</p>
           <p className=""><IonIcon name="newspaper"></IonIcon></p>
         </div>

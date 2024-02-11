@@ -1,5 +1,7 @@
+import IonIcon from "@reacticons/ionicons"
 import Footer from "../footer/Footer"
 import NavBar from "../nav/Navbar"
+
 
 const BIo = () => {
   return (

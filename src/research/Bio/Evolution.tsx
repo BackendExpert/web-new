@@ -1,5 +1,6 @@
 import NavBar from "../../nav/Navbar"
 import Footer from "../../footer/Footer"
+import IonIcon from "@reacticons/ionicons"
 
 const Evolution = () => {
   return (
@@ -7,6 +8,10 @@ const Evolution = () => {
       <NavBar />
       <div className="container mx-auto px-10 my-16">
         <p className="text-3xl font-semibold">Evolution, Ecology and Biodiversity Research Program</p>  
+        <div className="">
+          <p className="">Background</p>
+          <p className=""><IonIcon name="newspaper"></IonIcon></p>
+        </div>
         <p className="py-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit sequi, aperiam nam id fugiat nostrum unde totam ratione esse rem blanditiis minima repellat quam praesentium error facere iusto magni!
           Explicabo fugiat tenetur quia reprehenderit iure magni illo placeat ratione recusandae rerum quae aliquam hic, quod architecto in praesentium omnis cumque amet temporibus pariatur beatae dolorum. Aperiam excepturi neque recusandae!

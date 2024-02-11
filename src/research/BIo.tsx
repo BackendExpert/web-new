@@ -169,6 +169,34 @@ const BIo = () => {
                   </div>                  
               </div>
 
+              <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetSoil(!SoilOpen)}>
+                  <p className="">Molecular Microbiology and Human Diseases</p>
+                  <p className="pt-[3px]">
+                    <IonIcon name={SoilOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                  </p>
+
+                </div>
+                  <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+                    SoilOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                  }`}>          
+                    <div className="overflow-hidden md:text-2xl text-xl">
+                      <div className="">
+                        <div className="md:grid grid-cols-2 gap-2 justify-between">
+                          <div>Explore the microbial flora and the soil Ecosystem of Sri Lanka</div>  
+                          <div className="md:w-[35%] md:ml-[55%]">
+                            <Link to={'/Research/Bio/Evolution'}>
+                              <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
+                                <p className="">Explore More</p>
+                                <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                              </div>
+                            </Link>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>    
+                  </div>                  
+              </div>
 
             </div>
         <Footer />

@@ -66,11 +66,11 @@ const BIo = () => {
                           <div>Understanding the Process that form and maintain Biodiversity </div>  
                           <div className="md:w-[35%] md:ml-[55%]">
                             <Link to={'/Research/Bio/Evolution'}>
+                              <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
+                                <p className="">Explore More</p>
+                                <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                              </div>
                             </Link>
-                            <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
-                              <p className="">Explore More</p>
-                              <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
-                            </div>
                           </div>
                         </div>
 

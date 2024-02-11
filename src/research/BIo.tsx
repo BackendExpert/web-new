@@ -37,8 +37,8 @@ const BIo = () => {
                 <p>Sri Lanka</p>
               </div>
               <div className="pt-4 flex">
-                <p>Email</p>
-                <p className="pl-4">info@nifs.ac.lk</p>
+                <p><IonIcon name="mail" size="large"></IonIcon></p>
+                <p className="pl-4 pt-[3px]">info@nifs.ac.lk</p>
               </div>
             </div>
         <Footer />

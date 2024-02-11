@@ -6,6 +6,7 @@ import ComputerMaths from "./research/ComputerMaths";
 import Env from "./research/Env";
 import SocialSci from "./research/SocialSci";
 import Evolution from "./research/Bio/Evolution";
+import EvolutionMore from "./research/Bio/EvolutionMore";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/Research/Env" element={<Env />}></Route>
         <Route path="/Research/SocialSci" element={<SocialSci />}></Route>
         <Route path="/Research/Bio/Evolution" element={<Evolution />}></Route>
+        <Route path="/Research/Bio/Evolution/EvolutionMore" element={<EvolutionMore />}></Route>
       </Routes>
     </BrowserRouter>
   )

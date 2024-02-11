@@ -80,9 +80,9 @@ const Evolution = () => {
         </div>
 
         <div className="">
-          <div className="">
+          <div className="text-2xl mt-12 flex">
             <p className="">Lab Members</p>
-            <p className=""></p>
+            <p className="pt-[3px] pl-2"><IonIcon name="people" ></IonIcon></p>
           </div>
         </div>
 

@@ -40,6 +40,10 @@ const BIo = () => {
                 <p><IonIcon name="mail" size="large"></IonIcon></p>
                 <p className="pl-4 pt-[3px]">info@nifs.ac.lk</p>
               </div>
+              <div className="pt-4 flex">
+                <p><IonIcon name="call" size="large"></IonIcon></p>
+                <p className="pl-4 pt-[3px]">info@nifs.ac.lk</p>
+              </div>
             </div>
         <Footer />
     </div>

@@ -62,7 +62,10 @@ const BIo = () => {
                     <div className="overflow-hidden text-2xl">
                       <div className="flex justify-between">
                         <span>Understanding the Process that form and maintain Biodiversity </span>  
-                        <span>Go more</span>
+                        <div className="">
+                          <p className="">Explore More</p>
+                          <p className=""></p>
+                        </div>
                       </div> 
                     </div>    
                   </div>

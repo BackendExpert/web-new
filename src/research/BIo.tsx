@@ -12,6 +12,7 @@ const BIo = () => {
                 <div className="bg-gray-800 md:">
                 
                 </div>            
+                <p className="text-2xl font-semibold">Biological Science</p>
             </div>
         <Footer />
     </div>

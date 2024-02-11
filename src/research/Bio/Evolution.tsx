@@ -76,8 +76,10 @@ const Evolution = () => {
           <hr />
 
           <div className="flex md:mx-24 justify-between my-2 text-xl">
-            <p className="">Higher level phylogeny and Evolution of the crab spiders <br /> (Thomisidae) </p>
-            <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
+              <p className="">Higher level phylogeny and Evolution of the crab spiders <br /> (Thomisidae) </p>
+              <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            </Link>
           </div>
           <hr />
 

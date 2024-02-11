@@ -48,7 +48,7 @@ const BIo = () => {
                 <p className="pl-4 pt-[3px]">(+94) 81 22 32 106, (+94) 81 22 32 107</p>                
               </div>
 
-              <div className="bg-white text-xl px-12 py-8 rounded">
+              <div className="bg-white text-xl px-12 py-8 rounded border mt-4">
                 <div className="flex justify-between w-full font-semibold" onClick={() => SetCollspan(!collspanOpen)}>
                   <p className="">This is title 1</p>
                   <p className="pt-[3px]">

@@ -84,8 +84,10 @@ const Evolution = () => {
           <hr />
 
           <div className="flex md:mx-24 justify-between my-2 text-xl">
-            <p className="">Endemics of the central highlands of Sri Lanka </p>
-            <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
+              <p className="">Endemics of the central highlands of Sri Lanka </p>
+              <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            </Link>
           </div>
           <hr />
 

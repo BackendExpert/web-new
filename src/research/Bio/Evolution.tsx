@@ -24,7 +24,7 @@ const Evolution = () => {
           Obcaecati, eligendi adipisci omnis, nemo corporis quod quasi doloribus animi aut iure doloremque nulla sit totam incidunt modi. Maiores numquam, id pariatur minima placeat quidem natus optio laborum voluptatem et.
         </p>
 
-        <div className="text-3xl font-semibold mt-8">What does this matter ?</div>
+        <div className="text-2xl mt-8">What does this matter ?</div>
         <hr className="pb-4"/>
 
         <p className="">

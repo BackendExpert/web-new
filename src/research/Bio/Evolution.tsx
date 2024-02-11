@@ -33,6 +33,11 @@ const Evolution = () => {
           Adipisci consequatur possimus iste sapiente! Voluptas odit molestias reiciendis, qui sunt maiores in cupiditate tenetur est consectetur! Officia cum necessitatibus eaque nesciunt, possimus veniam sunt quae neque, suscipit voluptatum saepe.
           Eos ut necessitatibus quaerat iste laboriosam sunt? Temporibus excepturi labore, numquam minima eligendi ex repellendus aperiam laboriosam natus quod ullam maiores totam doloremque nostrum voluptatum in ad optio. Velit, temporibus.
         </p>
+
+        <div className="">
+          <p className="">Ongoing Prokects</p>
+          <p className=""><IonIcon name=""</p>
+        </div>
       </div>
 
       <Footer />

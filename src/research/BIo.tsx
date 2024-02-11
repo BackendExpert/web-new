@@ -36,6 +36,10 @@ const BIo = () => {
                 <p>Hanthana Road, Kandy (20000)</p>
                 <p>Sri Lanka</p>
               </div>
+              <div className="pt-4 flex">
+                <p>Email</p>
+                <p className="pl-4">info@nifs.ac.lk</p>
+              </div>
             </div>
         <Footer />
     </div>

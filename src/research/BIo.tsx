@@ -14,7 +14,7 @@ const BIo = () => {
                 </div>                     
             </div>
             <div className="flex">
-              <span className="text-white text-4xl font-semibold md:mt-[-300px] md:ml-[55%]">Biological Science</span>
+              <span className="text-white text-4xl font-semibold md:mt-[-300px] md:ml-[55%] mt-[-300px] ml-[20%]">Biological Science</span>
             </div>
         <Footer />
     </div>

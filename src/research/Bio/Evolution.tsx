@@ -36,7 +36,7 @@ const Evolution = () => {
 
         <div className="">
           <p className="">Ongoing Prokects</p>
-          <p className=""><IonIcon name=""</p>
+          <p className=""><IonIcon name="stats-chart" ></IonIcon></p>
         </div>
       </div>
 

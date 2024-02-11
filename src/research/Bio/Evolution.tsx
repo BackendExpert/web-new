@@ -1,7 +1,9 @@
 
 const Evolution = () => {
   return (
-    <div>Evolution</div>
+    <div className="container mx-auto px-10">
+      Ho all
+    </div>
   )
 }
 

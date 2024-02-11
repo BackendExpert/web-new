@@ -8,7 +8,7 @@ const researchSub = () => {
   return (
     <div className="">
         <NavBar />
-        <div className="container mx-auto px-12">
+        <div className="container mx-auto px-12 my-12">
             <div className="text-center mt-16">
                 <h1 className="text-4xl font-semibold pb-2">Research Division at NIFS</h1>
                 <p className="text-xl pb-8">Advancing the frontiers of fundamental research</p>

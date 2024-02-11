@@ -10,8 +10,9 @@ const Evolution = () => {
         <p className="text-3xl font-semibold">Evolution, Ecology and Biodiversity Research Program</p>  
         <div className="text-2xl mt-10 flex">
           <p className="">Background</p>
-          <p className=""><IonIcon name="newspaper"></IonIcon></p>
+          <p className="pt-[3px] pl-4"><IonIcon name="newspaper"></IonIcon></p>
         </div>
+        <hr />
         <p className="py-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit sequi, aperiam nam id fugiat nostrum unde totam ratione esse rem blanditiis minima repellat quam praesentium error facere iusto magni!
           Explicabo fugiat tenetur quia reprehenderit iure magni illo placeat ratione recusandae rerum quae aliquam hic, quod architecto in praesentium omnis cumque amet temporibus pariatur beatae dolorum. Aperiam excepturi neque recusandae!

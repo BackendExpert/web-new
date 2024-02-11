@@ -81,7 +81,7 @@ const BIo = () => {
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
                 <div className="flex justify-between w-full font-semibold" onClick={() => SetFood(!foodOpen)}>
-                  <p className="">Evolution, Econlogy and Biodiversity</p>
+                  <p className="">Food Chemistry</p>
                   <p className="pt-[3px]">
                     <IonIcon name={foodOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>
@@ -93,7 +93,7 @@ const BIo = () => {
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">
                         <div className="md:grid grid-cols-2 gap-2 justify-between">
-                          <div>Understanding the Process that form and maintain Biodiversity </div>  
+                          <div>Protect the public from heatlth risk brought upon by food</div>  
                           <div className="md:w-[35%] md:ml-[55%]">
                             <Link to={'/Research/Bio/Evolution'}>
                               <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">

@@ -11,8 +11,10 @@ const BIo = () => {
                 </div>
                 <div className="bg-gray-800 md:">
                 
-                </div>            
-                <p className="text-2xl font-semibold">Biological Science</p>
+                </div>                     
+            </div>
+            <div className="flex">
+              <span className="text-white text-4xl font-semibold md:mt-[-300px] md:ml-[55%]">Biological Science</span>
             </div>
         <Footer />
     </div>

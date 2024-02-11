@@ -60,8 +60,9 @@ const BIo = () => {
                     collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden text-2xl">
-                      <div className="flex jsutify-content-between">
+                      <div className="flex justify-between">
                         <span>Understanding the Process that form and maintain Biodiversity </span>  
+                        <span>Go more</span>
                       </div> 
                     </div>    
                   </div>

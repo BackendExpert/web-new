@@ -261,15 +261,15 @@ const BIo = () => {
               </div>
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
-                <div className="flex justify-between w-full font-semibold" onClick={() => SetPlant(!PlantOpen)}>
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetTax(!Taxonomy)}>
                   <p className="">Plant Taxonomy and Conservation</p>
                   <p className="pt-[3px]">
-                    <IonIcon name={PlantOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                    <IonIcon name={Taxonomy ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>
 
                 </div>
                   <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    PlantOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                    Taxonomy ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">

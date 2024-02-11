@@ -26,8 +26,15 @@ const BIo = () => {
               <hr className="mb-4"/>
               <p className="">The main focus of research in this division is discovering, eveluating and developing the island's bountiful biofic and abiotic natural reseources. Research activties are also focussed on efficient use of existing reseources and maintaining a cleaner enviroment</p>
               <div className="flex pt-12 text-4xl">
-                <p className="font-semibold">Background</p>
+                <p className="font-semibold">Contact</p>
                 <p className="pl-2 pt-[3px]"><IonIcon name="newspaper" ></IonIcon></p>
+              </div>
+              <hr className="mb-4"/>
+              <div>
+                <p>Division of Biological Sciences </p>
+                <p>National Institute of Fundamental Studies</p>
+                <p>Hanthana Road, Kandy (20000)</p>
+                <p>Sri Lanka</p>
               </div>
             </div>
         <Footer />

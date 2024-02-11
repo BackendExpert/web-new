@@ -7,7 +7,8 @@ import { Link } from "react-router-dom"
 
 const BIo = () => {
   const [collspanOpen, SetCollspan] = useState(false);
-
+  const [foodOpen, SetFood] = useState(false);
+  
   return (
     <div className="">
         <NavBar />
@@ -79,15 +80,15 @@ const BIo = () => {
               </div>
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
-                <div className="flex justify-between w-full font-semibold" onClick={() => SetCollspan(!collspanOpen)}>
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetFood(!foodOpen)}>
                   <p className="">Evolution, Econlogy and Biodiversity</p>
                   <p className="pt-[3px]">
-                    <IonIcon name={collspanOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                    <IonIcon name={foodOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>
 
                 </div>
                   <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                    foodOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">

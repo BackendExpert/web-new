@@ -107,6 +107,27 @@ const Evolution = () => {
                 <p className="pt-10">Office of the Director</p>
               </div>
             </div>
+            <div className="h-96 md:w-3/4 bg-gray-700 text-white mt-6 rounded">
+              <div className="pt-[70%] ml-[10%]">
+                <p className="font-semibold text-2xl">Anura Pathirana</p>
+                <p className="">Chief Technical Officer</p>
+                <p className="pt-10">Microbial Biotechnology</p>
+              </div>
+            </div>
+            <div className="h-96 md:w-3/4 bg-gray-700 text-white mt-6 rounded">
+              <div className="pt-[70%] ml-[10%]">
+                <p className="font-semibold text-2xl">Anura Pathirana</p>
+                <p className="">Chief Technical Officer</p>
+                <p className="pt-10">Microbial Biotechnology</p>
+              </div>
+            </div>
+            <div className="h-96 md:w-3/4 bg-gray-700 text-white mt-6 rounded">
+              <div className="pt-[70%] ml-[10%]">
+                <p className="font-semibold text-2xl">Anushika Liyanage</p>
+                <p className="">Chief Technical Officer</p>
+                <p className="pt-10">Office of the Director</p>
+              </div>
+            </div>
           </div>
         </div>
 

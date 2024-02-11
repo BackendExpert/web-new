@@ -1,7 +1,12 @@
 
 const BIo = () => {
   return (
-    <div>BIo</div>
+    <div className="">
+        <div className="md:grid grid-cols-2 gap-0">
+            <div className="">Biological Science</div>
+            Image
+        </div>
+    </div>
   )
 }
 

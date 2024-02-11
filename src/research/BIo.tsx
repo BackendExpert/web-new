@@ -1,9 +1,12 @@
 import IonIcon from "@reacticons/ionicons"
 import Footer from "../footer/Footer"
 import NavBar from "../nav/Navbar"
+import { useState } from "react"
 
 
 const BIo = () => {
+  const [collspanOpen, SetCollspan] = useState(false);
+
   return (
     <div className="">
         <NavBar />

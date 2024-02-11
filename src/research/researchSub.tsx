@@ -24,7 +24,7 @@ const researchSub = () => {
                 </Link>              
             </div>
             <div className="">
-                <Link>
+                <Link to={'/Research/EarthSpace'}>
                     <div className="cursor-pointer rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp10346292.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
                         <div className="px-8 py-28">
                             <span className="font-bold text-2xl text-white">Earth and Space Science</span>  

@@ -9,7 +9,7 @@ const BIo = () => {
                 <div className="">
                     <div className="bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp2237889.jpg')] h-[60vh] bg-cover" ></div>
                 </div>
-                <div className="bg-gray-800 md:">
+                <div className="bg-gray-800 md:visible invisible">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas atque quaerat expedita doloremque natus iusto quis amet. Dolor, asperiores? Earum, nulla doloremque ab dolore reprehenderit id necessitatibus libero eos quidem.
                 </div>                     
             </div>

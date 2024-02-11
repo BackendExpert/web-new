@@ -13,6 +13,7 @@ const BIo = () => {
   const [MolecularOpen, SetMolecular] = useState(false);
   const [Biochemistry, SetBioCh] = useState(false);
   const [PlantOpen, SetPlant] = useState(false);
+  const [Taxonomy, SetTax] = useState(false);
 
   return (
     <div className="">
@@ -245,6 +246,35 @@ const BIo = () => {
                       <div className="">
                         <div className="md:grid grid-cols-2 gap-2 justify-between">
                           <div>Design and helping plants to better adapt to climate change</div>  
+                          <div className="md:w-[35%] md:ml-[55%]">
+                            <Link to={'/Research/Bio/Evolution'}>
+                              <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
+                                <p className="">Explore More</p>
+                                <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                              </div>
+                            </Link>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>    
+                  </div>                  
+              </div>
+
+              <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetPlant(!PlantOpen)}>
+                  <p className="">Plant Taxonomy and Conservation</p>
+                  <p className="pt-[3px]">
+                    <IonIcon name={PlantOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                  </p>
+
+                </div>
+                  <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+                    PlantOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                  }`}>          
+                    <div className="overflow-hidden md:text-2xl text-xl">
+                      <div className="">
+                        <div className="md:grid grid-cols-2 gap-2 justify-between">
+                          <div>Protecting the flora and fauna of Sri Lanka</div>  
                           <div className="md:w-[35%] md:ml-[55%]">
                             <Link to={'/Research/Bio/Evolution'}>
                               <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">

@@ -60,12 +60,14 @@ const BIo = () => {
                     collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden md:text-2xl text-xl">
-                      <div className="flex justify-between">
-                        <div className="md:grid grid-cols-2 gap-2">
+                      <div className="">
+                        <div className="md:grid grid-cols-2 gap-2 justify-between">
                           <div>Understanding the Process that form and maintain Biodiversity </div>  
-                          <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
-                            <p className="">Explore More</p>
-                            <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                          <div className="md:w-[35%] md:ml-[55%]">
+                            <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
+                              <p className="">Explore More</p>
+                              <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                            </div>
                           </div>
                         </div>
 

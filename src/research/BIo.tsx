@@ -9,6 +9,7 @@ const BIo = () => {
   const [collspanOpen, SetCollspan] = useState(false);
   const [foodOpen, SetFood] = useState(false);
   const [Microbio, SetMicroBio] = useState(false);
+  const [SoilOpen, SetSoil] = useState(false);
 
   return (
     <div className="">
@@ -140,20 +141,20 @@ const BIo = () => {
 
               
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
-                <div className="flex justify-between w-full font-semibold" onClick={() => SetMicroBio(!Microbio)}>
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetSoil(!SoilOpen)}>
                   <p className="">Microbiology and Soil Ecosystem</p>
                   <p className="pt-[3px]">
-                    <IonIcon name={Microbio ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                    <IonIcon name={SoilOpen ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>
 
                 </div>
                   <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    Microbio ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                    SoilOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">
                         <div className="md:grid grid-cols-2 gap-2 justify-between">
-                          <div>Nature-friendly approach to ameliorate Agriculture, Ecosystems, Environment and Medicine</div>  
+                          <div>Explore the microbial flora and the soil Ecosystem of Sri Lanka</div>  
                           <div className="md:w-[35%] md:ml-[55%]">
                             <Link to={'/Research/Bio/Evolution'}>
                               <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">

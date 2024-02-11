@@ -60,7 +60,9 @@ const BIo = () => {
                     collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden text-2xl">
-                      Understanding the Process that form and maintain Biodiversity  
+                      <div className="flex jsutify-content-between">
+                        <span>Understanding the Process that form and maintain Biodiversity </span>  
+                      </div> 
                     </div>    
                   </div>
               </div>

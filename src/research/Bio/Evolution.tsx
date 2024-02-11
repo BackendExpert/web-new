@@ -80,7 +80,10 @@ const Evolution = () => {
         </div>
 
         <div className="">
-          <p className=""></p>
+          <div className="">
+            <p className="">Lab Members</p>
+            <p className=""></p>
+          </div>
         </div>
 
       </div>

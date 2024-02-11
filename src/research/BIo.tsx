@@ -11,6 +11,7 @@ const BIo = () => {
   const [Microbio, SetMicroBio] = useState(false);
   const [SoilOpen, SetSoil] = useState(false);
   const [MolecularOpen, SetMolecular] = useState(false);
+  const [Biochemistry, SetBioCh] = useState(false);
 
   return (
     <div className="">

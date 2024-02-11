@@ -86,7 +86,7 @@ const Evolution = () => {
           </div>
 
           <div className="md:grid grid-cols-3 gap-6">
-            <div className="h-96 md:w-3/4 bg-gray-700 text-white mt-6">
+            <div className="h-96 md:w-3/4 bg-gray-700 text-white mt-6 rounded">
               <p className=""></p>
             </div>
             <div className="">

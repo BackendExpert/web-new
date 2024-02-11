@@ -48,7 +48,7 @@ const BIo = () => {
                 <p className="pl-4 pt-[3px]">(+94) 81 22 32 106, (+94) 81 22 32 107</p>                
               </div>
 
-              <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black">
+              <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
                 <div className="flex justify-between w-full font-semibold" onClick={() => SetCollspan(!collspanOpen)}>
                   <p className="">Evolution, Econlogy and Biodiversity</p>
                   <p className="pt-[3px]">

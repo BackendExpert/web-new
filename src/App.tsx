@@ -4,6 +4,7 @@ import Bio from "./research/BIo";
 import EarthSpace from "./research/EarthSpace";
 import ComputerMaths from "./research/ComputerMaths";
 import Env from "./research/Env";
+import SocialSci from "./research/SocialSci";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/Research/EarthSpace" element={<EarthSpace />}></Route>
         <Route path="/Research/ComputerMaths" element={<ComputerMaths />}></Route>
         <Route path="/Research/Env" element={<Env />}></Route>
+        <Route path="/Research/SocialSci" element={<SocialSci />}></Route>
       </Routes>
     </BrowserRouter>
   )

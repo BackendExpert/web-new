@@ -42,7 +42,8 @@ const BIo = () => {
               </div>
               <div className="pt-4 flex">
                 <p><IonIcon name="call" size="large"></IonIcon></p>
-                <p className="pl-4 pt-[3px]">info@nifs.ac.lk</p>
+                <p className="pl-4 pt-[3px]">(+94) 81 22 32 106, (+94) 81 22 32 107</p>
+                
               </div>
             </div>
         <Footer />

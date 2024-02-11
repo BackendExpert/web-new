@@ -59,7 +59,7 @@ const BIo = () => {
                   <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
                     collspanOpen ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
-                    <div className="overflow-hidden text-2xl">
+                    <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="flex justify-between">
                         <div className="md:grid grid-cols-2 gap-2">
                           <div>Understanding the Process that form and maintain Biodiversity </div>  

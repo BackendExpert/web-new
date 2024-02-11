@@ -84,6 +84,18 @@ const Evolution = () => {
             <p className="">Lab Members</p>
             <p className="pt-[3px] pl-2"><IonIcon name="people" ></IonIcon></p>
           </div>
+
+          <div className="md:grid grid-cols-3 gap-6">
+            <div className="">
+              Name
+            </div>
+            <div className="">
+              Name
+            </div>
+            <div className="">
+              Name
+            </div>
+          </div>
         </div>
 
       </div>

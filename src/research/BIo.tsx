@@ -15,6 +15,7 @@ const BIo = () => {
   const [PlantOpen, SetPlant] = useState(false);
   const [Taxonomy, SetTax] = useState(false);
   const [PriBio, SetPriBio] = useState(false);
+  const [Rhizobium, SetRhi] = useState(false);
 
   return (
     <div className="">
@@ -322,15 +323,15 @@ const BIo = () => {
 
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
-                <div className="flex justify-between w-full font-semibold" onClick={() => SetPriBio(!PriBio)}>
+                <div className="flex justify-between w-full font-semibold" onClick={() => SetRhi(!Rhizobium)}>
                   <p className="">Rhizobium</p>
                   <p className="pt-[3px]">
-                    <IonIcon name={PriBio ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
+                    <IonIcon name={Rhizobium ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>
 
                 </div>
                   <div className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    PriBio ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
+                    Rhizobium ? 'grid-rows-[1fr] opacity-100 pt-4' : 'grid-rows-[0fr] opacity-0'
                   }`}>          
                     <div className="overflow-hidden md:text-2xl text-xl">
                       <div className="">

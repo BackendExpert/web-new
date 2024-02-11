@@ -50,21 +50,19 @@ const Evolution = () => {
             </Link>
           </div>
           <hr />
-
-          <div className="flex md:mx-24 justify-between my-2 text-xl">
-            <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
-              <p className="">Evolution of the jumping spiders (Salticidae) intro to Project </p>
-              <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
-            </Link>
-          </div>
+          <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
+            <div className="flex md:mx-24 justify-between my-2 text-xl">
+                <p className="">Evolution of the jumping spiders (Salticidae) intro to Project </p>
+                <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>            
+            </div>
+          </Link>
           <hr />
-
-          <div className="flex md:mx-24 justify-between my-2 text-xl">
-            <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
-              <p className="">The phylogenetics of the hybirds between the Sri Lanka primate species of langur <br /> (Semnopithecus priam thersites and S. Vetulus) </p>
-              <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
-            </Link>
-          </div>
+          <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
+            <div className="flex md:mx-24 justify-between my-2 text-xl">
+                <p className="">The phylogenetics of the hybirds between the Sri Lanka primate species of langur <br /> (Semnopithecus priam thersites and S. Vetulus) </p>
+                <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>            
+            </div>
+          </Link>
           <hr />
           <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
             <div className="flex md:mx-24 justify-between my-2 text-xl">

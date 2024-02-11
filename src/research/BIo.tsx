@@ -16,8 +16,11 @@ const BIo = () => {
               <span className="text-white text-4xl font-semibold md:mt-[-300px] md:ml-[55%] mt-[-300px] ml-[10%]">Biological Science</span>
             </div>
 
-            <div className="">
-              <p className="">Background</p>
+            <div className="container mx-auto px-10 pb-12">
+              <div className="flex pt-12">
+                <p className="">Background</p>
+                <p className="">Background</p>
+              </div>
               <p className="">The main focus of research in this division is discovering, eveluating and developing the island's bountiful biofic and abiotic natural reseources. Research activties are also focussed on efficient use of existing reseources and maintaining a cleaner enviroment</p>
             </div>
         <Footer />

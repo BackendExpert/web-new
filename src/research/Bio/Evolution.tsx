@@ -43,7 +43,7 @@ const Evolution = () => {
         <div className="">
           <div className="">
             <p className="">Biodiversity Patterns of herbivore scrab chafers of Sri Lanka <br /> (Sericini: Coleoptera: Scarabaeidae).</p>
-            <p className=""></p>
+            <p className=""><IonIcon name="chevron-forward-circle-outline" ></IonIcon></p>
           </div>
         </div>
       </div>

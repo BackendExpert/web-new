@@ -58,7 +58,7 @@ const BIo = () => {
                 <p className="pl-4 pt-[3px]">(+94) 81 22 32 106, (+94) 81 22 32 107</p>                
               </div>
 
-              <p className="">Current Focus Area</p>
+              <p className="pt-8 text-4xl font-semibold">Current Focus Area</p>
               <hr className="pb-2"/>
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">

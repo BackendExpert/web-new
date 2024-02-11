@@ -34,10 +34,11 @@ const Evolution = () => {
           Eos ut necessitatibus quaerat iste laboriosam sunt? Temporibus excepturi labore, numquam minima eligendi ex repellendus aperiam laboriosam natus quod ullam maiores totam doloremque nostrum voluptatum in ad optio. Velit, temporibus.
         </p>
 
-        <div className="">
+        <div className="mt-8 text-2xl flex">
           <p className="">Ongoing Prokects</p>
-          <p className=""><IonIcon name="stats-chart" ></IonIcon></p>
+          <p className="ml-2"><IonIcon name="stats-chart" ></IonIcon></p>
         </div>
+        <hr className="pb-4"/>
       </div>
 
       <Footer />

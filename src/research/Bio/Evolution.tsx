@@ -1,6 +1,8 @@
 import NavBar from "../../nav/Navbar"
 import Footer from "../../footer/Footer"
 import IonIcon from "@reacticons/ionicons"
+import { Link } from "react-router-dom"
+
 
 const Evolution = () => {
   return (
@@ -42,8 +44,10 @@ const Evolution = () => {
 
         <div className="">
           <div className="flex md:mx-24 justify-between my-2 text-xl">
-            <p className="">Biodiversity Patterns of herbivore scrab chafers of Sri Lanka <br /> (Sericini: Coleoptera: Scarabaeidae).</p>
-            <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            <Link to={'/Research/Bio/Evolution/EvolutionMore'}>
+              <p className="">Biodiversity Patterns of herbivore scrab chafers of Sri Lanka <br /> (Sericini: Coleoptera: Scarabaeidae).</p>
+              <p className="pt-2"><IonIcon size="large" name="chevron-forward-circle-outline" ></IonIcon></p>
+            </Link>
           </div>
           <hr />
 

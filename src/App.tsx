@@ -16,6 +16,7 @@ export default function App() {
         <Route path="/Research/ComputerMaths" element={<ComputerMaths />}></Route>
         <Route path="/Research/Env" element={<Env />}></Route>
         <Route path="/Research/SocialSci" element={<SocialSci />}></Route>
+        <Route path="/Research/Bio/"
       </Routes>
     </BrowserRouter>
   )

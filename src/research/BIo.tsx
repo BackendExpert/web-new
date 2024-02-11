@@ -61,11 +61,14 @@ const BIo = () => {
                   }`}>          
                     <div className="overflow-hidden text-2xl">
                       <div className="flex justify-between">
-                        <span>Understanding the Process that form and maintain Biodiversity </span>  
-                        <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer">
-                          <p className="">Explore More</p>
-                          <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                        <div className="md:grid grid-cols-2 gap-2">
+                          <div>Understanding the Process that form and maintain Biodiversity </div>  
+                          <div className="flex border py-2 px-4 border-black rounded-3xl cursor-pointer md:mt-0 mt-6">
+                            <p className="">Explore More</p>
+                            <p className="pt-[3px] pl-2"><IonIcon name="chevron-forward-circle-outline"></IonIcon></p>
+                          </div>
                         </div>
+
                       </div> 
                     </div>    
                   </div>

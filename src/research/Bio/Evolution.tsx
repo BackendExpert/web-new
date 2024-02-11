@@ -39,6 +39,13 @@ const Evolution = () => {
           <p className="ml-2"><IonIcon name="stats-chart" ></IonIcon></p>
         </div>
         <hr className="pb-4"/>
+
+        <div className="">
+          <div className="">
+            <p className="">Biodiversity Patterns of herbivore scrab chafers of Sri Lanka <br /> (Sericini: Coleoptera: Scarabaeidae).</p>
+            <p className=""></p>
+          </div>
+        </div>
       </div>
 
       <Footer />

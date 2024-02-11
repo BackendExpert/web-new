@@ -24,15 +24,17 @@ const researchSub = () => {
                 </Link>              
             </div>
             <div className="">
-                <div className="cursor-pointer rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp10346292.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
-                    <div className="px-8 py-28">
-                        <span className="font-bold text-2xl text-white">Earth and Space Science</span>  
-                        <div className="flex text-white duration-500 hover:pl-8">
-                            <span className="">Explore More</span>
-                            <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
-                        </div> 
-                    </div>
-                </div>              
+                <Link>
+                    <div className="cursor-pointer rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp10346292.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >
+                        <div className="px-8 py-28">
+                            <span className="font-bold text-2xl text-white">Earth and Space Science</span>  
+                            <div className="flex text-white duration-500 hover:pl-8">
+                                <span className="">Explore More</span>
+                                <span className="py-[3px] px-2"><IonIcon name="chevron-forward-outline"></IonIcon></span>
+                            </div> 
+                        </div>
+                    </div> 
+                </Link>
             </div>
             <div className="">
                 <div className="rounded bg-[linear-gradient(to_right_bottom,rgba(190,190,190,0.8),rgba(0,0,0,0.8)),url('https://wallpapercave.com/wp/wp12356395.jpg')] h-72 bg-cover bg-center bg-no-repeat mb-8 bg-opacity-75" >

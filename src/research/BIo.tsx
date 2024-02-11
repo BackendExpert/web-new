@@ -14,6 +14,7 @@ const BIo = () => {
   const [Biochemistry, SetBioCh] = useState(false);
   const [PlantOpen, SetPlant] = useState(false);
   const [Taxonomy, SetTax] = useState(false);
+  const [PriBio, SetPriBio] = useState(false);
 
   return (
     <div className="">

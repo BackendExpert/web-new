@@ -111,7 +111,7 @@ const BIo = () => {
 
               <div className="bg-white text-xl px-12 py-8 rounded border mt-4 border-black cursor-pointer">
                 <div className="flex justify-between w-full font-semibold" onClick={() => SetMicroBio(!Microbio)}>
-                  <p className="">Food Chemistry</p>
+                  <p className="">Microbial Biotechnology</p>
                   <p className="pt-[3px]">
                     <IonIcon name={Microbio ? "chevron-up-circle-outline" : "chevron-down-circle-outline"} />
                   </p>

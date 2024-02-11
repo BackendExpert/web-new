@@ -12,6 +12,7 @@ const BIo = () => {
   const [SoilOpen, SetSoil] = useState(false);
   const [MolecularOpen, SetMolecular] = useState(false);
   const [Biochemistry, SetBioCh] = useState(false);
+  const [PlantOpen, SetPlant] = useState(false);
 
   return (
     <div className="">

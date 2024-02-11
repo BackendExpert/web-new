@@ -19,10 +19,11 @@ const BIo = () => {
             </div>
 
             <div className="container mx-auto px-10 pb-12">
-              <div className="flex pt-12">
-                <p className="">Background</p>
-                <p className="">Background</p>
+              <div className="flex pt-12 text-4xl">
+                <p className="font-semibold">Background</p>
+                <p className="pl-2 pt-[3px]"><IonIcon name="newspaper" ></IonIcon></p>
               </div>
+              <hr className="pb-4"/>
               <p className="">The main focus of research in this division is discovering, eveluating and developing the island's bountiful biofic and abiotic natural reseources. Research activties are also focussed on efficient use of existing reseources and maintaining a cleaner enviroment</p>
             </div>
         <Footer />
